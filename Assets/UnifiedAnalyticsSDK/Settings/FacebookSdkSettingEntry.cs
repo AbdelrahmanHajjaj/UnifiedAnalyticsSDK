@@ -91,6 +91,8 @@ namespace UnifiedAnalyticsSDK.Projects
             FacebookSettings.AppIds.Clear();
             FacebookSettings.ClientTokens.Clear();
             FacebookSettings.AppLabels.Clear();
+
+            this.SaveFacebookSettings();
         }
 
         /// <summary>

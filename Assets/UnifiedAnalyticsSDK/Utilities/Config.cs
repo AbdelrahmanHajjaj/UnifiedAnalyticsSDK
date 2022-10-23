@@ -334,6 +334,11 @@ namespace UnifiedAnalyticsSDK.Utilities
         /// </summary>
         public void Reset()
         {
+            foreach (var entry in this.SdkSettingEntries)
+            {
+                entry.ClearSdkConfig();
+            }
+
             this.sdkSettingEntries.Clear();
             this.sdkSettingEntryNames.Clear();
             this.foldoutsMap.Clear();

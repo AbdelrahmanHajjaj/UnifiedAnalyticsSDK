@@ -105,6 +105,8 @@ namespace UnifiedAnalyticsSDK.Projects
             {
                 GameAnalytics.SettingsGA.RemovePlatformAtIndex(i);
             }
+
+            this.SaveGameAnalyticsSettings();
         }
 
         /// <summary>

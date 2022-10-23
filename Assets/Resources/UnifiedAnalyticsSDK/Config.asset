@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9fcf2075497e324c91a66330c28c69e, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  sdkSettingEntryNames:
+  - GA
+  - FB
+  - TST
+  sdkSettingEntries:
+  - Name: GA
+    Type: 1
+    Properties:
+    - Name: Platform
+      Value: 11
+    - Name: Game Key
+      Value: '"ed08177049b6c791e8fe830d78f88d9c"'
+    - Name: Secret Key
+      Value: '"38c61d3c388212fbeaa6f7e0386e931d9d336f3a"'
+    propertiesNames:
+    - Platform
+    - Game Key
+    - Secret Key
+  - Name: FB
+    Type: 2
+    Properties:
+    - Name: App Name (Optional)
+      Value: '"UnifiedAnalyticsTest"'
+    - Name: App Id
+      Value: '"1549192318811117"'
+    - Name: Client Token (Optional)
+      Value: '""'
+    propertiesNames:
+    - App Name (Optional)
+    - App Id
+    - Client Token (Optional)
+  - Name: TST
+    Type: 0
+    Properties:
+    - Name: Test Id
+      Value: '"tstId"'
+    - Name: Editor Only
+      Value: false
+    propertiesNames:
+    - Test Id
+    - Editor Only
+  foldoutsMap: 000100
+  abTestCohorts:
+  - AlphaTest
+  - BetaTest
+  IsCohortGroupFolded: 1
+  BuildNumber: 1.1

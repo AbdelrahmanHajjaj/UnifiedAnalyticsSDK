@@ -5,3 +5,6 @@
  ## Documentation
  [Here](Assets/UnifiedAnalyticsSDK/Documentation.pdf)
  
+ ---
+
+(NOTE) Game Analytics and Facebook SDKs for unity are both included by default in the released package.
